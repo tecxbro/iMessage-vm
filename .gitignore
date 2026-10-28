@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+*.log
+.DS_Store
+
+# runtime state (contains live tokens/user data)
+data/
+
+# design lab (local only, not shipped)
+designs/
+scripts/shoot-*.mjs
+dbg.mjs
+sheet-test.mjs

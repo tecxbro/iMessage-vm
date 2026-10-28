@@ -1,0 +1,22 @@
+{
+  "name": "photonlivemini",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Maritime Computers inside iMessage via Keiki live app cards",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/server.ts",
+    "start": "tsx --env-file=.env src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@novnc/novnc": "^1.5.0",
+    "spectrum-ts": "^12.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "playwright": "^1.52.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
